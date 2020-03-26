@@ -11,7 +11,7 @@ random.seed(14)
 
 def main():
     files = ['pma343', 'xqf131', 'xqg237']
-    file_name = files[0]
+    file_name = files[2]
     data_file = file_name + '.tsp'
     experiment_path = os.path.join('experiments', file_name)
     make_dirs(experiment_path)
